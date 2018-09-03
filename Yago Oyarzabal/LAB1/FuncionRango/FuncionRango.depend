@@ -1,5 +1,11 @@
 # depslib dependency file v1.0
-1536016705 source:d:\yago oyarzabal\lab1\funcionrango\main.c
+1536018646 source:d:\yago oyarzabal\lab1\funcionrango\main.c
 	<stdio.h>
 	<stdlib.h>
+	"myolib.h"
+
+1536017884 d:\yago oyarzabal\lab1\funcionrango\myolib.h
+
+1536018926 source:d:\yago oyarzabal\lab1\funcionrango\myolib.c
+	"myolib.h"
 
