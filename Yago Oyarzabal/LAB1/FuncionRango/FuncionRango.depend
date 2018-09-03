@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1536016705 source:d:\yago oyarzabal\lab1\funcionrango\main.c
+	<stdio.h>
+	<stdlib.h>
+
