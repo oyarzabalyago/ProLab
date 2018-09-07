@@ -8,14 +8,20 @@ int main()
     int indice;
     int valor;
 
+    for (i=0; i<5; i++)
+    {
+        vector[i]=0;
+    }
+
     for (i=0; i<3; i++)
     {
         printf("Ingrese un valor\n");
         scanf("%d", &valor);
+
         printf("Ingrese el indice\n");
         scanf("%d", &indice);
 
-        vector=valor[indice] );
+        vector[indice]=valor;
     }
 
      for (i=0; i<5; i++)
