@@ -5,6 +5,7 @@ int main()
 {
     int vector[5];
     int i;
+    char rta;
     int indice;
     int valor;
 
@@ -13,16 +14,26 @@ int main()
         vector[i]=0;
     }
 
-    for (i=0; i<3; i++)
+    do
     {
         printf("Ingrese un valor\n");
         scanf("%d", &valor);
 
+
+
         printf("Ingrese el indice\n");
         scanf("%d", &indice);
 
-        vector[indice]=valor;
-    }
+        if ( indice < 5)
+        {
+            vector[indice]=valor;
+        }
+
+
+        printf("desean continuar s/n \n");
+        scanf("%d", &rta);
+
+    }while(rta=='s');
 
      for (i=0; i<5; i++)
     {
@@ -31,3 +42,43 @@ int main()
 
     return 0;
 }
+
+
+int buscarNumero(int vec[], int tam, int valor)
+{
+    int indice =-1;
+
+    for (int i=0; i<tam; i++)
+    {
+        if(vec[i] == valor)
+        {
+            indice = i;
+            break;
+        }
+    }
+    return indice;
+}
+
+
+int buscarNumero(int vec[], int tam)
+{
+    int indice =-1;
+    int valor;
+    int valor2=0;
+
+    for (int i=0; i<tam; i++)
+    {
+        valor=vec[i];
+
+        if(valor<valor2)
+        {
+            valor=valor2
+        }
+
+    }
+    return indice;
+}
+
+
+
+

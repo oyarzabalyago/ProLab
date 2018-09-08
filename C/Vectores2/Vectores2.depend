@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1536364222 source:d:\yago oyarzabal\c\vectores2\main.c
+	<stdio.h>
+	<stdlib.h>
+
