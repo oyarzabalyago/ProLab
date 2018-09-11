@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1536627277 source:d:\yago oyarzabal\c\strigupper\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
