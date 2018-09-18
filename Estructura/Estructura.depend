@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1537232185 source:c:\users\alumno\desktop\estructura\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"oyarzabal.h"
+
+1537231306 c:\users\alumno\desktop\estructura\oyarzabal.h
+
+1537231176 source:c:\users\alumno\desktop\estructura\oyarzabal.c
+	"oyarzabal.h"
+
